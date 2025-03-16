@@ -7,8 +7,8 @@ import unittest
 import xmlrunner
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
-from ssml import SSMLTag, SSMLText, parseSSML, ssmlNodeToText  # Adjust import path
+from ssml import SSMLTag, SSMLText, parseSSML, ssmlNodeToText
+
 
 class TestParseSSML(unittest.TestCase):
     def test_parse_tag_names(self):
